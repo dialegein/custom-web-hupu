@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:match*",
+      "destination": "https://bbs.mobileapi.hupu.com/3/8.0.32/:match*"
+    }
+  ]
+}
