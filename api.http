@@ -18,7 +18,7 @@ GET https://bbs.mobileapi.hupu.com/3/8.0.32/topics/getTopicThreads
 # 专区编号， 
 # 步行街是1， 
 # 足球话题区是184
-&topic_id=184
+&topic_id=1
 
 ###跟帖请求
 GET https://bbs.mobileapi.hupu.com/3/8.0.32/threads/getCheckReply
@@ -55,5 +55,18 @@ GET https://bbs.mobileapi.hupu.com/3/8.0.32/topics/getTopicThreads
 &time_zone=Asia/Shanghai
 &topic_id=1
 
-curl '' -H ':authority: bbs.mobileapi.hupu.com' -H 'cookie: pctpct=f14f6chwrg8LbozQBP2kASoqZ%2FXK1PvRj4zDO2SwZLBk0nCaJ7fh8tTfst7LO8JdPsVWHWEiqwT1VVgD84Dq%2BA%3D%3D' -H 'cookie: u=34864067|5aSN6K+75py6MjAx|81f3|204104aef8aecf4e43953aaa3408586d|afb546d581d43424|aHVwdV9kMzI4NjhlMjdiMDlkMDdm' -H 'cookie: ua=24601244' -H 'cookie: us=476d82caaf8bf9c240a10e600719bf606048a8f1c557a4196d0f5a21548b4008f175239a8fd48c0ea1ad21593815e9229a70e13bcf26cdf21276369c714a21f5' -H 'cookie: _HUPUSSOID=615eeeb0-2cf3-4d7e-baa8-6d477e315900' -H 'cookie: _gamesu=MzM1MzU3OTk%3D%7CMTY3Mjg4NDYzNw%3D%3D%7Cadb434ced5e68b4dd3f49cef73d3079d' -H 'cookie: cpck=eyJpZGZhIjoiIiwiY2xpZW50IjoiMzRDMURDQTAtM0I1Ni01NTVDLUIyRUYtRDk0NjE0Q0IzMUM5IiwicHJvamVjdElkIjozfQ%3D%3D' -H 'cookie: cid=135015318' -H 'accept: */*' -H 'x-hupu-token: 34864067|5aSN6K+75py6MjAx|81f3|204104aef8aecf4e43953aaa3408586d|afb546d581d43424|aHVwdV9kMzI4NjhlMjdiMDlkMDdm:24601244:c52674a477244f510314df06686beba633dd2da78c358567d9556897fa084d044ace6cbbe0a4dd4fa382437edf344591d85aac53598abd96baeaddc9b4d4a25d' -H 'user-agent: Mozilla/5.0 (iPad; CPU OS 16_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 isp/unknown network/WIFI kanqiu prokanqiu/8.0.32 iPad8,6' -H 'accept-language: en-CN;q=1, zh-Hans-CN;q=0.9' -H 'accept-encoding: gzip, deflate, br' --compressed
-https://bbs.mobileapi.hupu.com/3/8.0.32/topics/getTopicThreads?bddid=7KR23BILT3NEAJZSXKABEN3A3WPCZ2HTAVWDBHDWVM6E3GVQAAOQ01&client=34C1DCA0-3B56-555C-B2EF-D94614CB31C9&clientId=135015318&crt=1672886286&deviceId=BU1ZfVbXdfZpvWIfzRWGG6WrwdvfXHN70dB2gFAZq8JER5z0DAMELUkzQ3nvLHTBXfFBn8mXIIFlw69OtETnTLw%3D%3D&newapp=1&night=0&page=1&sign=ac4a31c449738c4522e1cb937100f91d&stamp=0&tab_type=3&time_zone=Asia/Shanghai&topic_id=184
+### 帖子详情页
+GET https://bbs.mobileapi.hupu.com/3/8.0.32/threads/57276447
+?bddid=7KR23BILT3NEAJZSXKABEN3A3WPCZ2HTAVWDBHDWVM6E3GVQAAOQ01
+&client=34C1DCA0-3B56-555C-B2EF-D94614CB31C9
+&clientId=135015318
+&crt=1672969937
+&deviceId=Bp/nbo4kxe9YGRU9jlyJpwFXNUPadcULJIKfONF8GLv1Evcj6Juzsn47heeBnXFgIWUvSjLP1G2YemyD5ei8xjg%3D%3D
+&newapp=1
+&night=0
+&sign=4b6acbe7170f693977f1c9e62167b6e2
+&time_zone=Asia/Shanghai
+
+
+
+https://bbs.mobileapi.hupu.com/3/8.0.32/threads/57276447?bddid=7KR23BILT3NEAJZSXKABEN3A3WPCZ2HTAVWDBHDWVM6E3GVQAAOQ01&client=34C1DCA0-3B56-555C-B2EF-D94614CB31C9&clientId=135015318&crt=1672969937&deviceId=Bp%2Fnbo4kxe9YGRU9jlyJpwFXNUPadcULJIKfONF8GLv1Evcj6Juzsn47heeBnXFgIWUvSjLP1G2YemyD5ei8xjg%3D%3D&newapp=1&night=0&sign=4b6acbe7170f693977f1c9e62167b6e2&time_zone=Asia%2FShanghai

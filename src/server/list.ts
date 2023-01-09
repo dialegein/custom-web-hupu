@@ -1,11 +1,5 @@
 import { api, staticQuerys } from ".";
-
-export interface Response<T = unknown> {
-  data?: T
-  code: number
-  message: string
-  success: boolean
-}
+import type { Response } from '.'
 
 export type PostItem = {
   fid: number

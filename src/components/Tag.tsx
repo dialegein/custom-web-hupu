@@ -2,7 +2,7 @@ import { Component, JSX } from "solid-js";
 
 type TagProps = {
   label: string
-  icon: () => JSX.Element 
+  icon: JSX.Element 
   onClick: () => void
 };
 

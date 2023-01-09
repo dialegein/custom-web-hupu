@@ -1,8 +1,22 @@
 {
-  "rewrites": [
+  "routes": [
     {
-      "source": "/api/:match*",
-      "destination": "https://bbs.mobileapi.hupu.com/3/8.0.32/:match*"
+      "src": "/api/:match*",
+      "dest": "https://bbs.mobileapi.hupu.com/:match*"
+    },
+    {
+      "src": "/source/:match*",
+      "headers": {
+        "Referer": "https://bbs.hupu.com/"
+      },
+      "dest": "https://i10.hoopchina.com.cn/:match*"
+    },
+    {
+      "src": "/video/:match*",
+      "headers": {
+        "Referer": "https://bbs.hupu.com/"
+      },
+      "dest": "https://v.hoopchina.com.cn/:match*"
     }
   ]
 }
