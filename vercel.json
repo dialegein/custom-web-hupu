@@ -1,22 +1,16 @@
 {
-  "routes": [
+  "rewrites": [
     {
-      "src": "/api/:match*",
-      "dest": "https://bbs.mobileapi.hupu.com/:match*"
+      "source": "/api/(.*)",
+      "destination": "/api"
     },
     {
-      "src": "/source/:match*",
-      "headers": {
-        "Referer": "https://bbs.hupu.com/"
-      },
-      "dest": "https://i10.hoopchina.com.cn/:match*"
+      "source": "/source/(.*)",
+      "destination": "/api"
     },
     {
-      "src": "/video/:match*",
-      "headers": {
-        "Referer": "https://bbs.hupu.com/"
-      },
-      "dest": "https://v.hoopchina.com.cn/:match*"
+      "source": "/video/(.*)",
+      "destination": "/api"
     }
-  ]
+  ] 
 }
